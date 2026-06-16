@@ -42,9 +42,9 @@ src
 
 ## 📸 Screenshots
 
-### Home Page
+## 📸 Home Page
 
-(Add homepage screenshot here after uploading it to GitHub.)
+![EcoTrail AI Homepage](screenshots/homepage.png)
 
 ---
 
