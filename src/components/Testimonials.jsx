@@ -52,9 +52,9 @@ export default function Testimonials() {
                 <Image
                   src={person.image}
                   alt={person.name}
-                  width={70}
-                  height={70}
-                  className="rounded-full object-cover"
+                  width={80}
+                  height={80}
+                  className="w-20 h-20 rounded-full object-cover"
                 />
 
                 <div>

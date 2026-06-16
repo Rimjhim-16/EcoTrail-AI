@@ -1,29 +1,66 @@
 # 🌿 EcoTrail AI
 
-EcoTrail AI is an AI-powered sustainable tourism web application built using **Next.js**, **React**, and **Tailwind CSS**.
+An AI-powered sustainable tourism platform built with **Next.js**, **React**, and **Tailwind CSS**.
 
-## Features
+---
 
-* 🌍 Eco-friendly travel recommendations
-* 🤖 AI-powered trip planning
-* 🏕️ Featured eco destinations
-* 📊 Sustainability impact section
-* 💬 User testimonials
-* 📱 Responsive modern UI
+## 🚀 Features
 
-## Tech Stack
+* Responsive Landing Page
+* AI-inspired Eco Travel Platform
+* Featured Eco Destinations
+* Sustainability Impact Section
+* Testimonials
+* Call-To-Action
+* Modern Footer
+* Mobile Responsive Design
+* Smooth Hover Animations
+
+---
+
+## 🛠️ Tech Stack
 
 * Next.js
 * React.js
 * Tailwind CSS
 * JavaScript
+* Git
+* GitHub
 
-## Future Scope
+---
 
-* AI itinerary generation
-* User authentication
-* Interactive maps
-* Carbon footprint calculator
-* Booking integration
+## 📁 Project Structure
 
-Developed as part of an internship project.
+```
+src
+ ├── app
+ ├── components
+ ├── public
+```
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+(Add homepage screenshot here after uploading it to GitHub.)
+
+---
+
+## 💡 Future Enhancements
+
+* AI Trip Planner
+* Login Authentication
+* Google Maps Integration
+* Carbon Footprint Calculator
+* Weather API
+* Booking System
+
+---
+
+## 👩‍💻 Developed By
+
+**Rimjhim**
+
+Internship Project — EcoTrail AI
