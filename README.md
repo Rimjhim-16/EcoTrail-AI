@@ -59,6 +59,13 @@ src
 
 ---
 
+## Future Enhancements
+
+- AI itinerary generation
+- User authentication
+- Travel history dashboard
+- Interactive maps
+
 ## 👩‍💻 Developed By
 
 **Rimjhim**
