@@ -40,7 +40,7 @@ export default function ShowcasePage() {
       <main className="max-w-5xl mx-auto px-6 py-16 bg-white dark:bg-gray-900 min-h-screen transition-colors duration-300">
 
         <h1 className="text-4xl font-bold text-green-800 dark:text-green-300 mb-8">
-          Component Showcase
+          <br/>Component Showcase
         </h1>
 
         {/* Buttons */}
