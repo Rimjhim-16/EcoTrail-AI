@@ -3,7 +3,7 @@ import { FaLeaf, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-green-800 bg-[#062C16] text-white">
+    <footer className="border-t border-green-800 bg-[#062C16] text-white dark:bg-gray-950">
 
       <div className="max-w-7xl mx-auto px-8 py-16">
 

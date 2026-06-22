@@ -1,14 +1,14 @@
 export default function CTA() {
   return (
-    <section data-aos="fade-up" className="bg-[#14532D] py-28">
+    <section data-aos="fade-up" className="bg-[#14532D] py-28 dark:bg-black">
 
       <div className="max-w-4xl mx-auto text-center px-6">
 
-        <h2 className="text-5xl font-bold">
-          Ready for Your Next Adventure?
-        </h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-white transition-colors duration-300">
+  Ready for Your Next Adventure?
+</h2>
 
-        <p className="mt-6 text-lg text-green-100">
+        <p className="mt-4 text-green-100">
           Let EcoTrail AI help you plan sustainable trips, discover hidden gems,
           and create unforgettable travel experiences.
         </p>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { FaLeaf } from "react-icons/fa";
 import { HiBars3, HiXMark } from "react-icons/hi2";
 import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -77,16 +78,18 @@ export default function Navbar() {
 
         {/* Login Button */}
 
-        <div className="hidden md:block">
+        <div className="hidden md:flex items-center gap-3">
 
-          <Link
-            href="/login"
-            className="bg-green-500 hover:bg-green-400 transition px-6 py-2 rounded-full font-semibold text-white shadow-lg"
-          >
-            Login
-          </Link>
+  <ThemeToggle />
 
-        </div>
+  <Link
+    href="/login"
+    className="bg-green-500 hover:bg-green-400 transition px-6 py-2 rounded-full font-semibold text-white shadow-lg"
+  >
+    Login
+  </Link>
+
+</div>
 
         {/* Mobile Button */}
 
@@ -132,16 +135,18 @@ export default function Navbar() {
             </li>
 
             <li>
+  <ThemeToggle />
+</li>
 
-              <Link
-                href="/login"
-                onClick={() => setMenuOpen(false)}
-                className="bg-green-500 px-6 py-2 rounded-full"
-              >
-                Login
-              </Link>
-
-            </li>
+<li>
+  <Link
+    href="/login"
+    onClick={() => setMenuOpen(false)}
+    className="bg-green-500 px-6 py-2 rounded-full"
+  >
+    Login
+  </Link>
+</li>
 
           </ul>
 

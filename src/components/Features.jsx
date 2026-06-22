@@ -6,15 +6,15 @@ import {
 
 export default function Features() {
   return (
-    <section data-aos="fade-up" className="bg-gradient-to-b from-green-50 to-white py-20">
+    <section data-aos="fade-up" className="bg-gradient-to-b from-green-50 to-white py-20 dark:from-gray-900 dark:to-black">
 
       <div className="max-w-7xl mx-auto px-8">
 
-        <h2 className="text-4xl font-bold text-center text-[#14532D]">
+        <h2 className="text-4xl font-bold text-center text-[#14532D] dark:text-green-400">
           Why Choose EcoTrail AI?
         </h2>
 
-        <p className="text-center text-gray-600 mt-4 mb-14">
+        <p className="text-center text-gray-600 mt-4 mb-14 dark:text-gray-300">
           Experience intelligent, eco-conscious travel planning with AI.
         </p>
 

@@ -2,13 +2,13 @@ import Card from "./Card";
 
 export default function FeaturedDestinations() {
   return (
-    <section data-aos="fade-up" className="py-20 px-8 bg-gray-100">
+    <section data-aos="fade-up" className="py-20 px-8 bg-gray-100 dark:bg-gray-900">
 
-      <h2 className="text-4xl font-bold text-center text-[#14532D] mb-4">
+      <h2 className="text-4xl font-bold text-center text-[#14532D] mb-4 dark:text-green-400">
         Explore Eco Experiences
       </h2>
 
-      <p className="text-center text-gray-600 mb-12">
+      <p className="text-center text-gray-600 mb-12 dark:text-gray-300">
         Discover sustainable adventures curated by EcoTrail AI.
       </p>
 

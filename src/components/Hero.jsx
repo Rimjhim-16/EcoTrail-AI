@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section data-aos="fade-up" className="relative h-screen pt-20">
+    <section data-aos="fade-up" className="relative h-screen pt-20 bg-white dark:bg-gray-900">
 
       <Image
         src="/images/hero/hero.jpg"
@@ -26,7 +26,7 @@ export default function Hero() {
 
           </h1>
 
-          <p className="mt-8 text-lg md:text-2xl text-gray-200">
+          <p className="mt-8 text-lg md:text-2xl text-gray-200 dark:text-white">
 
             AI-powered eco tourism platform helping you discover
             sustainable homestays, hidden destinations,

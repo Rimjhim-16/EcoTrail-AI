@@ -26,15 +26,15 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section data-aos="fade-up" className="py-24 bg-gray-100">
+    <section data-aos="fade-up" className="py-24 bg-gray-100 dark:bg-gray-900">
 
       <div className="max-w-7xl mx-auto px-8">
 
-        <h2 className="text-5xl font-bold text-center text-green-800">
+        <h2 className="text-5xl font-bold text-center text-green-800 dark:text-green-400">
           What Our Travelers Say
         </h2>
 
-        <p className="text-center text-gray-500 mt-4 mb-14">
+        <p className="text-center text-gray-500 mt-4 mb-14 dark:text-gray-300">
           Trusted by eco-conscious travelers across the world.
         </p>
 
@@ -44,7 +44,7 @@ export default function Testimonials() {
 
             <div
               key={index}
-              className="bg-white rounded-3xl shadow-lg p-8 hover:shadow-2xl transition duration-300"
+              className="bg-white dark:bg-gray-800 rounded-3xl shadow-lg p-8 hover:shadow-2xl transition duration-300"
             >
 
               <div className="flex items-center gap-4">
@@ -59,11 +59,11 @@ export default function Testimonials() {
 
                 <div>
 
-                  <h3 className="font-bold text-xl text-green-900">
+                  <h3 className="font-bold text-xl text-green-900 dark:text-green-300">
                     {person.name}
                   </h3>
 
-                  <p className="text-gray-500 text-sm">
+                  <p className="text-gray-500 text-sm dark:text-gray-400">
                     {person.role}
                   </p>
 
@@ -71,7 +71,7 @@ export default function Testimonials() {
 
               </div>
 
-              <p className="mt-6 text-gray-600 italic">
+              <p className="mt-6 text-gray-600 italic dark:text-gray-300">
                 "{person.review}"
               </p>
 

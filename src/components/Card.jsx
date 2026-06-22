@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Card({ image, title, description }) {
   return (
-    <div className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:rotate-[0.5deg]">
+    <div className="group bg-white dark:bg-gray-800 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 hover:rotate-[0.5deg]">
 
       <div className="relative h-64 overflow-hidden">
 
@@ -18,14 +18,14 @@ export default function Card({ image, title, description }) {
 
       <div className="p-6">
 
-        <h3 className="text-2xl font-bold text-green-800">
+        <h3 className="text-2xl font-bold text-green-800 dark:text-green-300">
           <span className="inline-block bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full mb-4 font-semibold">
             Eco Certified
           </span> <br />
           {title}
         </h3>
 
-        <p className="mt-3 text-gray-600">
+        <p className="mt-3 text-gray-600 dark:text-gray-300">
           {description}
         </p>
 
