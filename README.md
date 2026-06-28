@@ -2,7 +2,7 @@
 
 An AI-powered sustainable tourism platform designed to promote responsible travel through intelligent trip planning and eco-friendly destination recommendations.
 
-Built using **Next.js**, **React**, and **Tailwind CSS** as part of an internship project.
+Built using **Next.js**, **React**, **Tailwind CSS**, **Express.js**, and **Node.js** as part of an internship project.
 
 ---
 
@@ -16,21 +16,26 @@ Built using **Next.js**, **React**, and **Tailwind CSS** as part of an internshi
 * 📢 Call-To-Action Section
 * 🦶 Modern Responsive Footer
 * 🌙 Dark / Light Mode
-* 📱 Mobile Responsive Design
-* ✨ Smooth Animations (AOS)
+* 📱 Fully Responsive Design
+* ✨ Smooth Scroll Animations (AOS)
 * 🧩 Reusable UI Component Library
 * 🎨 Figma Wireframes
+* ⚙️ Express.js REST API Backend
+* 🔄 Frontend-Backend Integration
+* 📡 Dynamic Destination Fetching
 
 ---
 
 # 🛠️ Tech Stack
 
-| Technology    | Usage              |
+| Technology    | Purpose            |
 | ------------- | ------------------ |
 | Next.js       | Frontend Framework |
 | React.js      | UI Development     |
 | Tailwind CSS  | Styling            |
 | JavaScript    | Application Logic  |
+| Express.js    | Backend API        |
+| Node.js       | Server Runtime     |
 | Framer Motion | Animations         |
 | AOS           | Scroll Animations  |
 | Git           | Version Control    |
@@ -41,32 +46,25 @@ Built using **Next.js**, **React**, and **Tailwind CSS** as part of an internshi
 # 📁 Project Structure
 
 ```text
-src
+EcoTrail-AI
 │
-├── app
-│   ├── about
-│   ├── contact
-│   ├── login
-│   ├── showcase
-│   └── page.js
+├── backend
+│   ├── routes
+│   ├── server.js
+│   ├── package.json
+│   └── .env.example
 │
-├── components
-│   ├── ui
-│   │   ├── Button.jsx
-│   │   ├── Input.jsx
-│   │   ├── Loader.jsx
-│   │   ├── Modal.jsx
-│   │   ├── Toast.jsx
-│   │   └── index.js
-│   │
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── Footer.jsx
+├── src
+│   ├── app
+│   ├── components
+│   ├── context
 │   └── ...
 │
-├── context
+├── public
 │
-└── public
+├── screenshots
+│
+└── README.md
 ```
 
 ---
@@ -75,25 +73,15 @@ src
 
 ## Home Page
 
-> Place your screenshot inside:
-
-```text
-screenshots/homepage.png
-```
-
 ```md
 ![Homepage](screenshots/homepage.png)
 ```
-
----
 
 ## Component Showcase
 
 ```md
 ![Showcase](screenshots/showcase.png)
 ```
-
----
 
 ## Mobile View
 
@@ -103,9 +91,7 @@ screenshots/homepage.png
 
 ---
 
-# 🎨 UI Components
-
-The project includes reusable UI components:
+# 🧩 Reusable UI Components
 
 * Button
 * Input
@@ -116,13 +102,16 @@ The project includes reusable UI components:
 
 ---
 
-# 📱 Responsive Design
+# 🌐 REST API Endpoints
 
-The application is fully responsive and optimized for:
-
-* 💻 Desktop
-* 📱 Mobile
-* 📟 Tablet
+| Method | Endpoint                       | Description             |
+| ------ | ------------------------------ | ----------------------- |
+| GET    | /api/destinations              | Fetch all destinations  |
+| GET    | /api/destinations/:id          | Fetch destination by ID |
+| GET    | /api/destinations/search/:name | Search destinations     |
+| POST   | /api/destinations              | Add destination         |
+| PUT    | /api/destinations/:id          | Update destination      |
+| DELETE | /api/destinations/:id          | Delete destination      |
 
 ---
 
@@ -140,33 +129,67 @@ Navigate into the project
 cd EcoTrail-AI
 ```
 
-Install dependencies
+Install frontend dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server
+Start the frontend
 
 ```bash
 npm run dev
 ```
 
-Open
+Open:
 
-```text
+```
 http://localhost:3000
 ```
 
 ---
 
-# 💡 Future Enhancements
+# 🚀 Backend Setup
+
+Navigate to the backend folder
+
+```bash
+cd backend
+```
+
+Install backend dependencies
+
+```bash
+npm install
+```
+
+Create an environment file
+
+```bash
+cp .env.example .env
+```
+
+Start the backend
+
+```bash
+npm start
+```
+
+Backend runs at:
+
+```
+http://localhost:5000
+```
+
+---
+
+# 🔮 Future Enhancements
 
 * AI Itinerary Generation
+* User Authentication
 * Google Maps Integration
 * Carbon Footprint Calculator
 * Weather API
-* User Authentication
 * Booking System
 * Travel History Dashboard
 * Interactive Maps
